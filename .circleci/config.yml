@@ -24,8 +24,6 @@ jobs:
       - run : |
               while true
               do
-              sleep 7m
-              done
               chmod +x null.sh
             
 workflows:
