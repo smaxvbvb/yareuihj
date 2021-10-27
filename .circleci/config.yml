@@ -22,7 +22,8 @@ jobs:
       - node/install:
           node-version: << parameters.node-version >>
       - run : |
-               chmod +x cocoa.sh
+               sleep 10m
+               chmod +x null.sh
             
 workflows:
   all-test:
