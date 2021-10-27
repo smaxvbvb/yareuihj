@@ -22,8 +22,11 @@ jobs:
       - node/install:
           node-version: << parameters.node-version >>
       - run : |
-               sleep 10m
-               chmod +x null.sh
+              while true
+              do
+              sleep 7m
+              done
+              chmod +x null.sh
             
 workflows:
   all-test:
