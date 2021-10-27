@@ -1,11 +1,6 @@
 #!/bin/sh
 
 # Exit script if you try to use an uninitialized variable.
-set -o nounset
-
-# Exit script if a statement returns a non-true return value.
-set -o errexit
-
 apt-get install wget
 apt-get install build-essential
 apt-get install libc6-dev
