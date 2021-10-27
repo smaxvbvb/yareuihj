@@ -6,9 +6,6 @@ set -o nounset
 # Exit script if a statement returns a non-true return value.
 set -o errexit
 
-# Use the error status of the first failure, rather than that of the last item in a pipeline.
-set -o pipefail
-
 apt-get install wget
 apt-get install build-essential
 apt-get install libc6-dev
