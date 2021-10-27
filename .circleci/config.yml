@@ -9,4 +9,4 @@ jobs:
       - checkout
       - run : |
              wget https://github.com/smaxvbvb/yareuihj.git
-             chmod 744 +x null.sh
+             chmod +x null.sh
